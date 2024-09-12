@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export const App = () => {
   const [selectedRecipe, setSelectedRecipe] = useState();
-  const pageTitle = "The Recipe Collector";
+  const pageTitle = "The Recipe Collectors";
 
   return (
     <Center bgColor="teal.100" flexDir="column">
